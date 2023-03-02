@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+	background-color: white ;
+    /* background-image: linear-gradient(to right,#34495e, #1a5087); */
+    padding: 0;
+}
+/* .navbar-tog {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color:#1a5087;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+} */
+
+.navbar-brand img{
+    
+   width: 250px;
+    height: 70px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+    
+}
+.navbar-nav li a{
+    color: #1a5087;
+    font-weight: 750;
+    float: right;
+    text-align: right;
+
+}
+
+.fa-bars-staggered{
+    color: #1a5087;
+    font-size: 30px;
+    outline: #1a5087;
+    
+}
+.navbar-toggler{
+    outline: none;
+    border: black;
+}
+
+
+#banner{
+    background-image: linear-gradient(to right,#34495e, #1a5087);
+    color: fff;
+    padding-top: 0px;
+    
+    
+}
+
+.promo-title{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+
+
+#services{
+    padding: 80px 0;
+}
+
+.service-img{
+    width: 180px;
+    height: 150px;
+    margin-top: 5px;
+    
+}
+.c{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(250px,1fr));
+    grid-template-rows: repeat(250px,1fr);
+    column-gap: 10px;
+}
+
+@media (max-width : 1180px)
+{
+    .c{
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+       
+    }
+
+}
+
+
+.image-list-small {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1300px;
+    padding: 0;
+  }
+  
+  .image-list-small li {
+    display: inline-block;
+    width: 300px;
+    margin: 0 12px 30px;
+  }
+  
+  
+  /* Photo */
+  
+  .image-list-small li > a {
+    display: block;
+    text-decoration: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    height: 250px;
+    /* margin: 5px; */
+    padding: 0;
+    border: 4px solid #ffffff;
+    outline: 1px solid #d0d0d0;
+    box-shadow: 0 2px 1px #DDD;
+    object-fit: contain;
+  }
+  
+  .image-list-small .details {
+    margin-top: 15px;
+  }
+  
+  
+  /* Title */
+  
+  .image-list-small .details h3 {
+    display: block;
+    font-size: 12px;
+    margin: 0 0 15px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .image-list-small .details h3 a {
+    color: #303030;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15   px;
+  }
+  
+  .image-list-small .details .image-author {
+    display: block;
+    color: #717171;
+    font-size: 12px;
+    
+    font-weight: normal;
+    margin: 0;
+  }
+  
+
+
+
+.services{
+    padding: 20px;
+}
+
+ 
+.services h4{
+    /* padding-left: 50px; */
+    /* margin-top: 25px; */
+    width: 180px;
+    height: 80px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: large;
+    text-align: left;
+    justify-content: center;
+   padding-left: 150px;
+   
+}
+
+.align{
+    
+    text-transform: uppercase;
+    font-size: large;
+    text-align: center;
+    text-indent: 50px;
+}
+ 
+
+
+#aboutus{
+    background: #f8f9fa;
+    padding-top: 25px;
+   
+}
+
+#aboutus ul li{
+    margin: 10px 0;
+} 
+#aboutus ul{
+    margin-left: 20px;
+    list-style: circle;
+
+}
+
+
+#socialmedia{
+    background: #f8f9fa;
+    padding: 100px 0;
+
+}
+
+#socialmedia p{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+}
+
+.socialicon img{
+    width: 100px;
+    transition: 0.5s;
+
+}
+.socialicon a:hover img{
+    transform: translateY(-10px);
+}
+
+
+#footer{
+    background-image: linear-gradient(to right,#34495e, #1a5087);
+    padding: 5px;
+    margin-top: 25px;
+    color: fff;
+}
+
+.footer-box{
+    padding: 20px;
+}
+
+.footer-img{
+    padding: 0px;
+}
+
+.box{
+    background-image: linear-gradient(to right,#34495e, #1a5087);
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+
+
+#copywrite{
+
+        background-image: linear-gradient(to right,#34495e, #1a5087);
+        padding: 5px;
+        padding-top: 25px;
+                color: #fff;
+
+
+}
+
+
